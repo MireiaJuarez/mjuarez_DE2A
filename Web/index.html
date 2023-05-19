@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <meta author="Mireia">
+
+    <title>QUE ÉS EL SHITPOST?</title>
+
+    <link rel="stylesheet" href="estils.css">
+
+    <link rel="shortcut icon" href="img/triki.jpg" />
+
+</head>
+
+
+<body>
+<div id="contenido"><a name="arriba">
+
+    <div id="cabecera"></div>
+    <!-- slider -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="img/gulag.jpg" class="fotitos">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/cringe.jpg" class="fotitos">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/marge.jpg" class="fotitos">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/ayuwoki.jpg" class="fotitos">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/kk.jpg" class="fotitos">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/pizza.jpg" class="fotitos">
+        </div>
+
+    </div>
+    <br>
+
+    <div class="puntitos">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+
+
+    <h1>QUE ES</h1>
+
+    <div id="quees">
+        El shitposting (del inglés shit, mierda; y posting, publicar) es una jerga de internet que se refiere al acto de
+        publicar intencionalmente contenido de calidad pobre, agresiva, inútil, irónica y actuando como troll, mashups,
+        irrelevancia, incoherencia, spam no comercial, errores de ortografía o gramática.
+        <br><br>Todos son sellos distintivos del shitposting (hecho mayormente con propósitos cómicos) en un foro de
+        Internet o red social, en algunos casos para desviar las discusiones, causar mayor reacción con el menor
+        esfuerzo posible o para lograr que el sitio sea inútil para sus visitantes regulares.
+    </div>
+    <h1>ORIGEN</h1>
+
+    <div id="origen">
+        El 28 de junio de 2007, el miembro del foro Penny Arcade, IHasABucket, comentó en un hilo sobre varios tipos de
+        música electrónica de baile en el que criticaba a otros miembros por hacer "shitposting".
+
+        <br><br> El 4 de enero de 2008, el usuario de Urban Dictionary, jarrynkell, envió una entrada para el término
+        "shitpost". Lo describió como: "Hacer publicaciones completamente inútiles y tontas en un foro de mensajes de
+        Internet".
+
+        <br><br> El 26 de marzo de 2010, otro usuario de Urban Dictionary llamado Chunky Milk, envió una entrada para "Shit
+        Posting", definiéndola como el acto de hacer una publicación poco constructiva en un foro en línea.
+
+        <br><br> El 27 de abril de 2011, se creó una entrada titulada "Shitpost" en la wiki de cultura de Internet,
+        Encyclopedia Dramatica, que enumeraba el tablero de /s4s/ en 4chan y el subreddit de /r/circlejerk en Reddit
+        como comunidades en línea asociadas con la práctica. El titular se archivó en Internet Archive en el año 2020.
+
+        <br><br>El 22 de octubre, se lanzó el subreddit de /r/shitpost para discusiones sobre publicaciones de baja calidad
+        en Reddit. El 11 de noviembre de 2012, el usuario de Reddit, RustledHard, envió una captura de pantalla de un
+        hilo de 4chan titulado "Esto es lo que yo llamo publicación de mierda" en el subreddit de /r/4chan.
+    </div>
+
+    <h1>REGLAS DE INTERNET</h1>
+
+    <div id="regla">
+        Las Reglas de Internet una lista de protocolos y convenciones, escrita originalmente para servir como guía para
+        aquellos que se identificaron con el grupo y organización hacktivista de Internet, Anonymous. Al observar las
+        Reglas de Internet, uno puede comprender los patrones de comportamiento detrás de los que practican el acto del
+        shitposting.
+
+        <br><br>Las regla 49 describe el término del shitposting cuando hace referencia al lema de la página web
+        Something Awful. Se basa en que cuanto más contenido veas del mismo, el contenido pasará a ser parte de ti. Con
+        el humor, cada vez verás más contenido absurdo, y te hará gracia el shitposting, haciendo que cada vez te rías
+        de contenido más estúpido, haciendo que la gente que no ve esas cosas crea que eres "estúpido".
+
+        <br><br>49. Internet te hace estúpido.
+
+        <br><br>La regla 50 indica que todo puede ser meme de Internet. El shitposting es un claro ejemplo de ello.
+
+        <br><br>50. Cualquier cosa puede ser un meme.
+    </div>
+
+    <div id="boton"><a href="#arriba">Volver Arriba</a></div>
+</a></div>
+</body>
+
+</html>
