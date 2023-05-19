@@ -1,0 +1,149 @@
+body{
+    background-color: lightsalmon;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    background-color: #edc406;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(img/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: 10px;
+}
+
+#cabecera p{  
+    font-size: 45px;
+    font-family: serif;
+    color: white;
+    -webkit-text-stroke: black 1px;
+    line-height: 100px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+#contenedor{
+    width: 1475px;
+    margin: 0 auto;
+}
+
+.cajas{
+    margin: 5px;
+    background-color: #ffff;
+    width: 350px;
+    height: 600px;
+    border: white solid 4px;
+    float: left;
+}
+
+.imagen{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+
+#RF{
+    background-image: url(img/RF.jpg);
+}
+
+#chica{
+    background-image: url(img/lachica.jpg);
+}
+
+#alaska{
+    background-image: url(img/alaska.jpg);
+}
+
+#secretos{
+    background-image: url(img/secretos.jpeg);
+}
+
+#salta{
+    background-image: url(img/tequila.jpg);
+}
+
+#lobo{
+    background-image: url(img/lobo.jpg);
+}
+
+#levantar{
+    background-image: url(img/levantar.jpg);
+}
+
+#bienvenidos{
+    background-image: url(img/mr.jpg);
+}
+
+#lugar{
+    background-image: url(img/duncan.jpg);
+}
+
+#hombres{
+    background-image: url(img/hombres.jpg);
+}
+
+#slowly{
+    background-image: url(img/aute.jpg);
+}
+
+#pacto{
+    background-image: url(img/pacto.jpg);
+}
+.texto{
+    height: 250px;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+    font-size: 14px;
+    text-align: justify;
+    line-height: 18px;
+    margin: 5px;
+    
+}   
+
+.titulo{
+    font-family: 'Trebuchet MS';
+    color: lightsalmon;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.titulo:hover{
+    color: springgreen;
+    cursor: pointer;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.bola{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #343434;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #343434;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    margin: 5px;
+}
+
+#footer{
+    background-color: #edc406;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Courier;
+    margin-top: 1860px;
+    line-height: 50px;
+    text-align: center;
+}
