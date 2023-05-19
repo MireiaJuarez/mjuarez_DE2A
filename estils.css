@@ -39,7 +39,6 @@ body{
     text-align: center;
     line-height: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration:none;
 }
 
 .boton:hover{
@@ -49,4 +48,8 @@ border-radius:50%;
 box-shadow: 0px 0px 15px 15px plum;
 -webkit-box-shadow: 0px 0px 15px 15px plum;
 
+}
+
+a:link, a:visited {
+  text-decoration: none;
 }
