@@ -1,0 +1,107 @@
+body{
+  background-image: url(img/fondo.jpg);
+  background-size: cover;
+}
+
+#contenedor{
+  height: 300px;
+  width: 1350px;
+  margin: auto;
+  margin-top: 650px;
+  align-items: center;
+}
+
+.cuadraditos{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 100px;
+  border: 2px solid black;
+  margin: 10px;
+  float: left;
+}
+
+.cuadraditos:hover{
+  cursor: hand;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #5b1d2c;
+  -webkit-box-shadow: 0px 0px 15px 15px #5b1d2c;
+}
+
+#div1{
+  background-color: turquoise;
+  background-image: url(img/finn.jpg);
+  background-size: cover;
+}
+
+#div2{
+  background-color: DarkTurquoise;
+  background-image: url(img/jake.jpg);
+  background-size: cover;
+
+}
+
+#div3{
+  background-color: MediumAquamarine;
+  background-image: url(img/marcy.jpeg);
+  background-size: cover;
+}
+
+#div4{
+  background-color: CornflowerBlue;
+  background-image: url(img/pb.jpeg);
+  background-size: cover;
+}
+
+#div5{
+  background-color: royalblue;
+  background-image: url(img/lumpspace.png);
+  background-size: cover;
+}
+
+#div6{
+  background-color: mediumblue;
+  background-image: url(img/ik.jpeg);
+  background-size: cover;
+}
+
+.nombres{
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  background-color: #FFC2EB;
+}
+
+#uno{
+  background-color: #65C3FD;
+  border: 2px solid #65C3FD;
+}
+
+#dos{
+  background-color: #F5BB12;
+  border: 2px solid #F5BB12;
+}
+
+#tres{
+  background-color: #c6e1ea;
+  border: 2px solid #c6e1ea;
+}
+
+#quatro{
+  background-color: #ffceff;
+  border: 2px solid #ffceff;
+}
+
+#cinco{
+  background-color: #9372d4;
+  border: 2px solid #9372d4;
+}
+
+#seis{
+  background-color: #B2E7F2;
+  border: 2px solid #B2E7F2;
+}
